@@ -1,0 +1,23 @@
+# Verified training environment: Python 3.10, CUDA 11.8
+# Install a PyTorch build appropriate for your CUDA driver.
+torch==2.2.2
+torchvision==0.17.2
+torchaudio==2.2.2
+
+librosa==0.10.1
+soundfile==0.12.1
+opencv-python
+facenet-pytorch
+Pillow
+
+numpy
+tqdm
+scikit-learn
+pandas
+matplotlib
+chardet
+imageio-ffmpeg
+
+# Required by the emotion2vec+ acoustic backbone.
+funasr
+modelscope
